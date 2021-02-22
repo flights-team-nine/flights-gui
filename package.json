@@ -1,0 +1,26 @@
+{
+  "name": "flights-gui",
+  "version": "1.0.0",
+  "description": "Copyright 2021 Nolan Ngo, Dishant Mishra, Vincent Cheng, Matthew Harris, \r     Joseph Santanello, Clare Truell",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/flights-team-nine/flights-gui.git"
+  },
+  "bugs": {
+    "url": "https://github.com/flights-team-nine/flights-gui/issues"
+  },
+  "homepage": "https://github.com/flights-team-nine/flights-gui#readme",
+  "dependencies": {
+    "@emotion/babel-plugin": "^11.2.0",
+    "@emotion/react": "^11.1.5",
+    "next": "^10.0.7",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
+  }
+}
