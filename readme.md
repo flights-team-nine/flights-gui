@@ -16,3 +16,17 @@
 
 # flights-gui
 Repository to track frontend changes in the flights project.
+
+```bash
+# before running anything, make sure you:
+npm i
+
+# to run in dev mode:
+npm run dev
+
+# to build for production (fast load times between pages/ compressed assets):
+npm run build
+
+# to run production build:
+npm start
+```
