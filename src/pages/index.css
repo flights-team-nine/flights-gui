@@ -36,7 +36,8 @@ body {
   margin-right: 2%;
 }
 
-.busbook {
+.busbook,
+.busview {
   max-width: 500px;
   margin: auto;
 }
@@ -55,7 +56,45 @@ header {
 
 .column {
   float: left;
+  padding: 10px;
   width: 32.3%;
+}
+.columna {
+  float: left;
+  padding: 15px;
+  width: 25%;
+}
+.columna_black {
+  background-color: #222222;
+  float: left;
+  padding: 15px;
+  width: 25%;
+}
+
+.columnb {
+  background-color: white;
+  padding: 10px;
+  color: black;
+  width: 60%;
+}
+.columnb_Grey {
+  background-color: #ddddda;
+  padding: 10px;
+  color: black;
+  width: 60%;
+}
+
+.columnc {
+  background-color: #2374ab;
+  color: white;
+  width: 15%;
+  text-align: center;
+}
+.columnc_darkblue {
+  background-color: #1a608f;
+  color: white;
+  width: 15%;
+  text-align: center;
 }
 
 /* Clear floats after the columns */
@@ -65,8 +104,16 @@ header {
   display: table;
   clear: both;
 }
+.busrow {
+  background-color: #222222;
+}
 
 .white {
   background-color: white;
   color: black;
+}
+
+.blue {
+  background-color: #272838;
+  color: white;
 }
