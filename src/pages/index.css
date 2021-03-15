@@ -1,44 +1,44 @@
-.login, .landingpage {
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
-	text-align: center;
-	min-height: 100vh;
-	background-color: #272838;
-	color: white;
+.login, .landingpage, .missingpage {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  min-height: 100vh;
+  background-color: #272838;
+  color: white;
 }
 
 h1 {
-	font-family: "Mulish", sans-serif;
-	font-weight: bolder;
-	font-size: 7em;
+  font-family: "Mulish", sans-serif;
+  font-weight: bolder;
+  font-size: 7em;
 }
 
 h3 {
-	font-family: "Mulish", sans-serif;
-	color: #2374AB;
-	font-weight: bolder;
+  font-family: "Mulish", sans-serif;
+  color: #2374ab;
+  font-weight: bolder;
 }
 
 h2 {
-	font-family: "Mulish", sans-serif;
-	font-weight: bolder;
+  font-family: "Mulish", sans-serif;
+  font-weight: bolder;
 }
 
 body {
-	background-color: #272838;
-	color: white;
-	font-weight: bolder;
+  background-color: #272838;
+  color: white;
+  font-weight: bolder;
 }
 
 #rememberme {
-	margin-right: 2%;
+  margin-right: 2%;
 }
 
 .busbook {
-	max-width: 500px;
-  	margin: auto;
+  max-width: 500px;
+  margin: auto;
 }
 
 .dot {
@@ -50,7 +50,7 @@ body {
 }
 
 header {
-	background-color: #222222;
+  background-color: #222222;
 }
 
 .column {
@@ -59,13 +59,14 @@ header {
 }
 
 /* Clear floats after the columns */
-.row:after, .white:after {
+.row:after,
+.white:after {
   content: "";
   display: table;
   clear: both;
 }
 
 .white {
-	background-color: white;
-	color: black;
+  background-color: white;
+  color: black;
 }
