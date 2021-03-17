@@ -1,5 +1,11 @@
 import React from 'react';
 import { Link } from "react-router-dom";
+import { Button } from '@material-ui/core';
+
+const user = {
+	username: "username",
+	password: "password"
+};
 
 function Login() {
 	return (
@@ -15,7 +21,7 @@ function Login() {
 				<input type="checkbox" name="rememberme" id="rememberme"/><label>Rememer Me</label>
 				<br />
 				<br />
-				<Link to="/BusBook" class="btn btn-primary">Login</Link>
+				<Button variant="contained" color="primary" href="BusBook">Login</Button>
 			</form>
 		</div>
 	);

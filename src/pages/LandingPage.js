@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from "react-router-dom";
+import { Button } from '@material-ui/core';
 
 const LandingPage = () => {
 	/*const history = useHistory();
@@ -15,7 +16,7 @@ const LandingPage = () => {
 			<br />
 			<h2>Mission 66</h2>
 			<br />
-			<Link to="/Login" class="btn btn-primary">Go</Link>
+			<Button variant="contained" color="primary" href="Login">Go</Button>
 		</div>
 	);
 };

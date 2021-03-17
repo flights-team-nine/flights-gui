@@ -1,0 +1,1 @@
+{"ast":null,"code":"import { jsx as _jsx } from \"@emotion/react/jsx-runtime\";\nexport default function Navigation() {\n  return _jsx(\"nav\", {\n    children: \"yo\"\n  });\n}","map":null,"metadata":{},"sourceType":"module"}

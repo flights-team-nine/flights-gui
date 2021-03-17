@@ -10,11 +10,10 @@ import MissingPage from "./MissingPage.js";
 
 class App extends Component {
   /*const history = useHistory();
-
-	const routeChange = () =>{ 
-		let path = `Login`;
-	    history.push(path);
-	}*/
+  const routeChange = () =>{ 
+    let path = `Login`;
+      history.push(path);
+  }*/
   render() {
     return (
       <Router>
