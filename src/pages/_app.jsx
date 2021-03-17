@@ -1,23 +1,23 @@
 import { Global, css } from '@emotion/react';
+import React from 'react';
 import Navigation from '../components/navigation';
+import Teampage from '../components/teampage';
+import styles from '../styles/teamstyle.css'
+
+
+
+
 
 export default function AppRoot({ Component, pageProps }) {
   return (
     <>
-      <Global
-        styles={css`
-          html,
-          body {
-            padding: 0;
-            margin: 0;
-            box-sizing: border-box;
-            background-color: #ff00ff;
-            color: #ff00ff;
-          }
-        `}
-      />
-      <Navigation />
+    
+      
+      <Navigation/>
+      <Teampage/>
       <Component {...pageProps} />
     </>
   );
 }
+
+

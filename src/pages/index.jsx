@@ -1,3 +1,3 @@
 export default function Index() {
-  return <div className={`page`}>yo</div>;
+  return <div className={`page`}></div>;
 }
