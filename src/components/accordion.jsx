@@ -6,14 +6,6 @@ import MuiAccordionDetails from '@material-ui/core/AccordionDetails';
 import Typography from '@material-ui/core/Typography';
 import { ClassNames } from '@emotion/react';
 
-const AccordionStripe = makeStyles({
-    root: {
-        width: 10,
-        float: 'left',
-        height: 5,
-    }
-
-});
 
 const Accordion = withStyles({
   root: {
@@ -74,7 +66,7 @@ Each tab will need to abstracted so that information from the db can be pulled s
     */
   return (
     <div>
-        <div className={classes.root}></div>
+
 
     <div>
 
