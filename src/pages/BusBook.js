@@ -37,9 +37,9 @@ function BusBook() {
 			<AccordionDetails>
 	          	<Typography>
 	          		<div class="row">
-				<div class="column" style={{marginLeft: "5px"}}><span class="dot" style={{backgroundColor: "green", marginLeft: "15px"}}></span><p>Green</p></div>
-				<div class="column"><span class="dot" style={{backgroundColor: "orange", marginLeft: "20px"}}></span><p>Orange</p></div>
-				<div class="column"><span class="dot" style={{backgroundColor: "purple", marginLeft: "15px"}}></span><p>Purple</p></div>
+				<div class="column" style={{marginLeft: "5px"}}><span class="dot" style={{backgroundColor: "#00A896", marginLeft: "15px"}}></span><p>Green</p></div>
+				<div class="column"><span class="dot" style={{backgroundColor: "#E18335", marginLeft: "20px"}}></span><p>Orange</p></div>
+				<div class="column"><span class="dot" style={{backgroundColor: "#912DCE", marginLeft: "15px"}}></span><p>Purple</p></div>
 			</div>
 			<p style={{fontWeight: "bold"}}>Priority Information</p>
 					<div class = "white">
@@ -93,9 +93,9 @@ function BusBook() {
 			<AccordionDetails>
 	          	<Typography>
 	          		<div class="row">
-				<div class="column" style={{marginLeft: "5px"}}><span class="dot" style={{backgroundColor: "gold", marginLeft: "10px"}}></span><p>Gold</p></div>
-				<div class="column"><span class="dot" style={{backgroundColor: "silver", marginLeft: "12px"}}></span><p>Silver</p></div>
-				<div class="column"><span class="dot" style={{backgroundColor: "teal", marginLeft: "8px"}}></span><p>Teal</p></div>
+				<div class="column" style={{marginLeft: "5px"}}><span class="dot" style={{backgroundColor: "#CBAB58", marginLeft: "10px"}}></span><p>Gold</p></div>
+				<div class="column"><span class="dot" style={{backgroundColor: "#C5C5C5", marginLeft: "12px"}}></span><p>Silver</p></div>
+				<div class="column"><span class="dot" style={{backgroundColor: "#52C1B3", marginLeft: "8px"}}></span><p>Teal</p></div>
 			</div>
 			<p style={{fontWeight: "bold"}}>Priority Information</p>
 					<div class = "white">
@@ -149,9 +149,9 @@ function BusBook() {
 			<AccordionDetails>
 	          	<Typography>
 			<div class="row">
-				<div class="column" style={{marginLeft: "5px"}}><span class="dot" style={{backgroundColor: "red", marginLeft: "7px"}}></span><p>Red</p></div>
-				<div class="column"><span class="dot" style={{backgroundColor: "yellow", marginLeft: "16px"}}></span><p>Yellow</p></div>
-				<div class="column"><span class="dot" style={{backgroundColor: "blue", marginLeft: "8px"}}></span><p>Blue</p></div>
+				<div class="column" style={{marginLeft: "5px"}}><span class="dot" style={{backgroundColor: "#CE2D4F", marginLeft: "7px"}}></span><p>Red</p></div>
+				<div class="column"><span class="dot" style={{backgroundColor: "#FFE600", marginLeft: "16px"}}></span><p>Yellow</p></div>
+				<div class="column"><span class="dot" style={{backgroundColor: "#2374AB", marginLeft: "8px"}}></span><p>Blue</p></div>
 			</div>
 			<p style={{fontWeight: "bold"}}>Priority Information</p>
 					<div class = "white">

@@ -41,7 +41,8 @@ p {
 }
 
 .busbook,
-.busview {
+.busview,
+.teamview {
   max-width: 500px;
   margin: auto;
 }
@@ -52,6 +53,11 @@ p {
   border-radius: 50%;
   display: inline-block;
   margin: 0 0.5%;
+}
+
+.rect {
+  width: 5px;
+  margin-right: 5px;
 }
 
 header {
@@ -74,25 +80,27 @@ header {
   float: left;
   padding: 15px;
   width: 25%;
+  color: white;
 }
 .columna_black {
   background-color: #222222;
   float: left;
   padding: 15px;
   width: 25%;
+  color: white;
 }
 
 .columnb {
   background-color: white;
   padding: 10px;
   color: black;
-  width: 60%;
+  width: 56%;
 }
 .columnb_Grey {
   background-color: #ddddda;
   padding: 10px;
   color: black;
-  width: 60%;
+  width: 56%;
 }
 
 .columnc {
@@ -106,6 +114,14 @@ header {
   color: white;
   width: 15%;
   text-align: center;
+}
+
+.teamview .row {
+  width: 248%;
+}
+
+.busview .row {
+  width: 330%;
 }
 
 /* Clear floats after the columns */

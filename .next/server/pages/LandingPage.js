@@ -88,12 +88,12 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 2);
+/******/ 	return __webpack_require__(__webpack_require__.s = 3);
 /******/ })
 /************************************************************************/
 /******/ ({
 
-/***/ 2:
+/***/ 3:
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__("wsTC");
@@ -105,6 +105,13 @@ module.exports = __webpack_require__("wsTC");
 /***/ (function(module, exports) {
 
 module.exports = require("@emotion/react/jsx-runtime");
+
+/***/ }),
+
+/***/ "KKbo":
+/***/ (function(module, exports) {
+
+module.exports = require("@material-ui/core");
 
 /***/ }),
 
@@ -133,6 +140,9 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__("oncg");
 /* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react_router_dom__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _material_ui_core__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__("KKbo");
+/* harmony import */ var _material_ui_core__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_material_ui_core__WEBPACK_IMPORTED_MODULE_3__);
+
 
 
 
@@ -153,9 +163,10 @@ const LandingPage = () => {
       children: "Rochester"
     }), Object(_emotion_react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("br", {}), Object(_emotion_react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("h2", {
       children: "Mission 66"
-    }), Object(_emotion_react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("br", {}), Object(_emotion_react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])(react_router_dom__WEBPACK_IMPORTED_MODULE_2__["Link"], {
-      to: "/Login",
-      class: "btn btn-primary",
+    }), Object(_emotion_react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("br", {}), Object(_emotion_react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])(_material_ui_core__WEBPACK_IMPORTED_MODULE_3__["Button"], {
+      variant: "contained",
+      color: "primary",
+      href: "Login",
       children: "Go"
     })]
   });

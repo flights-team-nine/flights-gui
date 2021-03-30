@@ -6,6 +6,7 @@ import LandingPage from "./LandingPage.js";
 import Login from "./Login.js";
 import BusBook from "./BusBook.js";
 import BusView from "./BusView.js";
+import TeamView from "./TeamView.js";
 import MissingPage from "./MissingPage.js";
 
 class App extends Component {
@@ -22,6 +23,7 @@ class App extends Component {
           <Route exact path="/login" component={Login} />
           <Route exact path="/busbook" component={BusBook} />
           <Route exact path="/busview" component={BusView} />
+          <Route exact path="/teamview" component={TeamView} />
           <Route exact path="/missingpage" component={MissingPage} />
         </Switch>
       </Router>

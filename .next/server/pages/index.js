@@ -88,7 +88,7 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 5);
+/******/ 	return __webpack_require__(__webpack_require__.s = 7);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -97,6 +97,163 @@ module.exports =
 /***/ (function(module, exports) {
 
 
+
+/***/ }),
+
+/***/ "3PpT":
+/***/ (function(module, exports) {
+
+module.exports = require("@material-ui/icons/ExpandMore");
+
+/***/ }),
+
+/***/ "3QwP":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _emotion_react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__("6gYj");
+/* harmony import */ var _emotion_react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_emotion_react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__("cDcd");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__("oncg");
+/* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react_router_dom__WEBPACK_IMPORTED_MODULE_2__);
+
+
+
+
+
+function BusView() {
+  return Object(_emotion_react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxs"])("div", {
+    class: "busview",
+    children: [Object(_emotion_react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("header", {
+      children: Object(_emotion_react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("p", {
+        children: "Bus View"
+      })
+    }), Object(_emotion_react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("p", {
+      children: "Bus 1"
+    }), Object(_emotion_react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("p", {
+      children: "Bus 2"
+    }), Object(_emotion_react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("p", {
+      children: "Bus 3"
+    }), Object(_emotion_react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("div", {
+      class: "busrow",
+      children: Object(_emotion_react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("p", {
+        children: "Bus"
+      })
+    }), Object(_emotion_react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxs"])("div", {
+      class: "row",
+      children: [Object(_emotion_react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("div", {
+        class: "columna",
+        children: Object(_emotion_react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("p", {
+          children: "Team"
+        })
+      }), Object(_emotion_react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("div", {
+        class: "columnb",
+        children: Object(_emotion_react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("p", {
+          children: "Name"
+        })
+      }), Object(_emotion_react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("div", {
+        class: "columnc",
+        children: Object(_emotion_react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("p", {
+          children: " EDIT "
+        })
+      })]
+    }), Object(_emotion_react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxs"])("div", {
+      class: "row",
+      children: [Object(_emotion_react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("div", {
+        class: "columna_black",
+        children: Object(_emotion_react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("p", {
+          children: "Team"
+        })
+      }), Object(_emotion_react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("div", {
+        class: "columnb_Grey",
+        children: Object(_emotion_react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("p", {
+          children: "Name"
+        })
+      }), Object(_emotion_react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("div", {
+        class: "columnc_darkblue",
+        children: Object(_emotion_react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("p", {
+          children: " EDIT "
+        })
+      })]
+    }), Object(_emotion_react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxs"])("div", {
+      class: "row",
+      children: [Object(_emotion_react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("div", {
+        class: "columna",
+        children: Object(_emotion_react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("p", {
+          children: "Team"
+        })
+      }), Object(_emotion_react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("div", {
+        class: "columnb",
+        children: Object(_emotion_react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("p", {
+          children: "Name"
+        })
+      }), Object(_emotion_react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("div", {
+        class: "columnc",
+        children: Object(_emotion_react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("p", {
+          children: " EDIT "
+        })
+      })]
+    }), Object(_emotion_react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxs"])("div", {
+      class: "row",
+      children: [Object(_emotion_react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("div", {
+        class: "columna_black",
+        children: Object(_emotion_react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("p", {
+          children: "Team"
+        })
+      }), Object(_emotion_react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("div", {
+        class: "columnb_Grey",
+        children: Object(_emotion_react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("p", {
+          children: "Name"
+        })
+      }), Object(_emotion_react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("div", {
+        class: "columnc_darkblue",
+        children: Object(_emotion_react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("p", {
+          children: " EDIT "
+        })
+      })]
+    }), Object(_emotion_react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxs"])("div", {
+      class: "row",
+      children: [Object(_emotion_react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("div", {
+        class: "columna",
+        children: Object(_emotion_react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("p", {
+          children: "Team"
+        })
+      }), Object(_emotion_react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("div", {
+        class: "columnb",
+        children: Object(_emotion_react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("p", {
+          children: "Name"
+        })
+      }), Object(_emotion_react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("div", {
+        class: "columnc",
+        children: Object(_emotion_react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("p", {
+          children: " EDIT "
+        })
+      })]
+    }), Object(_emotion_react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxs"])("div", {
+      class: "row",
+      children: [Object(_emotion_react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("div", {
+        class: "columna_black",
+        children: Object(_emotion_react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("p", {
+          children: "Team"
+        })
+      }), Object(_emotion_react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("div", {
+        class: "columnb_Grey",
+        children: Object(_emotion_react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("p", {
+          children: "Name"
+        })
+      }), Object(_emotion_react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("div", {
+        class: "columnc_darkblue",
+        children: Object(_emotion_react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("p", {
+          children: " EDIT "
+        })
+      })]
+    })]
+  });
+}
+
+/* harmony default export */ __webpack_exports__["default"] = (BusView);
 
 /***/ }),
 
@@ -114,6 +271,10 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _LandingPage_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__("wsTC");
 /* harmony import */ var _Login_js__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__("kLz0");
 /* harmony import */ var _BusBook_js__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__("hFHt");
+/* harmony import */ var _BusView_js__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__("3QwP");
+/* harmony import */ var _MissingPage_js__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__("P1+6");
+
+
 
 
 
@@ -124,8 +285,8 @@ __webpack_require__.r(__webpack_exports__);
 
 class App extends react__WEBPACK_IMPORTED_MODULE_1__["Component"] {
   /*const history = useHistory();
-  	const routeChange = () =>{ 
-  	let path = `Login`;
+  const routeChange = () =>{ 
+    let path = `Login`;
       history.push(path);
   }*/
   render() {
@@ -143,6 +304,14 @@ class App extends react__WEBPACK_IMPORTED_MODULE_1__["Component"] {
           exact: true,
           path: "/busbook",
           component: _BusBook_js__WEBPACK_IMPORTED_MODULE_5__["default"]
+        }), Object(_emotion_react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])(react_router_dom__WEBPACK_IMPORTED_MODULE_2__["Route"], {
+          exact: true,
+          path: "/busview",
+          component: _BusView_js__WEBPACK_IMPORTED_MODULE_6__["default"]
+        }), Object(_emotion_react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])(react_router_dom__WEBPACK_IMPORTED_MODULE_2__["Route"], {
+          exact: true,
+          path: "/missingpage",
+          component: _MissingPage_js__WEBPACK_IMPORTED_MODULE_7__["default"]
         })]
       })
     });
@@ -154,7 +323,14 @@ class App extends react__WEBPACK_IMPORTED_MODULE_1__["Component"] {
 
 /***/ }),
 
-/***/ 5:
+/***/ "6gYj":
+/***/ (function(module, exports) {
+
+module.exports = require("@emotion/react/jsx-runtime");
+
+/***/ }),
+
+/***/ 7:
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__("RXBc");
@@ -162,10 +338,10 @@ module.exports = __webpack_require__("RXBc");
 
 /***/ }),
 
-/***/ "6gYj":
+/***/ "9Pu4":
 /***/ (function(module, exports) {
 
-module.exports = require("@emotion/react/jsx-runtime");
+module.exports = require("@material-ui/core/styles");
 
 /***/ }),
 
@@ -176,10 +352,53 @@ module.exports = require("@emotion/react/jsx-runtime");
 
 /***/ }),
 
+/***/ "Jro0":
+/***/ (function(module, exports) {
+
+module.exports = require("@material-ui/core/AccordionDetails");
+
+/***/ }),
+
 /***/ "KKbo":
 /***/ (function(module, exports) {
 
 module.exports = require("@material-ui/core");
+
+/***/ }),
+
+/***/ "P1+6":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _emotion_react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__("6gYj");
+/* harmony import */ var _emotion_react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_emotion_react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__("cDcd");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__("oncg");
+/* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react_router_dom__WEBPACK_IMPORTED_MODULE_2__);
+
+
+
+
+
+const MissingPage = () => {
+  return Object(_emotion_react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxs"])("div", {
+    class: "missingpage",
+    children: [Object(_emotion_react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("h1", {
+      class: "",
+      children: "HF"
+    }), Object(_emotion_react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("h3", {
+      children: "Rochester"
+    }), Object(_emotion_react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("br", {}), Object(_emotion_react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("h2", {
+      children: "404"
+    }), Object(_emotion_react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("h4", {
+      children: "PAGE NOT FOUND"
+    }), Object(_emotion_react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("br", {})]
+  });
+};
+
+/* harmony default export */ __webpack_exports__["default"] = (MissingPage);
 
 /***/ }),
 
@@ -211,10 +430,31 @@ react_dom__WEBPACK_IMPORTED_MODULE_2___default.a.render(Object(_emotion_react_js
 
 /***/ }),
 
+/***/ "UVoM":
+/***/ (function(module, exports) {
+
+module.exports = require("@material-ui/core/Typography");
+
+/***/ }),
+
+/***/ "VuiC":
+/***/ (function(module, exports) {
+
+module.exports = require("@material-ui/core/Accordion");
+
+/***/ }),
+
 /***/ "cDcd":
 /***/ (function(module, exports) {
 
 module.exports = require("react");
+
+/***/ }),
+
+/***/ "cVsR":
+/***/ (function(module, exports) {
+
+module.exports = require("@material-ui/core/AccordionSummary");
 
 /***/ }),
 
@@ -236,147 +476,497 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__("oncg");
 /* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react_router_dom__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _material_ui_core__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__("KKbo");
+/* harmony import */ var _material_ui_core__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_material_ui_core__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var _material_ui_core_styles__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__("9Pu4");
+/* harmony import */ var _material_ui_core_styles__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_material_ui_core_styles__WEBPACK_IMPORTED_MODULE_4__);
+/* harmony import */ var _material_ui_core_Accordion__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__("VuiC");
+/* harmony import */ var _material_ui_core_Accordion__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_material_ui_core_Accordion__WEBPACK_IMPORTED_MODULE_5__);
+/* harmony import */ var _material_ui_core_AccordionSummary__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__("cVsR");
+/* harmony import */ var _material_ui_core_AccordionSummary__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(_material_ui_core_AccordionSummary__WEBPACK_IMPORTED_MODULE_6__);
+/* harmony import */ var _material_ui_core_AccordionDetails__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__("Jro0");
+/* harmony import */ var _material_ui_core_AccordionDetails__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(_material_ui_core_AccordionDetails__WEBPACK_IMPORTED_MODULE_7__);
+/* harmony import */ var _material_ui_core_Typography__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__("UVoM");
+/* harmony import */ var _material_ui_core_Typography__WEBPACK_IMPORTED_MODULE_8___default = /*#__PURE__*/__webpack_require__.n(_material_ui_core_Typography__WEBPACK_IMPORTED_MODULE_8__);
+/* harmony import */ var _material_ui_icons_ExpandMore__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__("3PpT");
+/* harmony import */ var _material_ui_icons_ExpandMore__WEBPACK_IMPORTED_MODULE_9___default = /*#__PURE__*/__webpack_require__.n(_material_ui_icons_ExpandMore__WEBPACK_IMPORTED_MODULE_9__);
 
 
 
 
+
+
+
+
+
+
+
+const useStyles = Object(_material_ui_core_styles__WEBPACK_IMPORTED_MODULE_4__["makeStyles"])(theme => ({
+  heading: {
+    //fontSize: theme.typography.pxToRem(15),
+    //fontWeight: theme.typography.fontWeightRegular,
+    color: 'white',
+    backgroundColor: '#272838'
+  }
+}));
 
 function BusBook() {
+  const classes = useStyles();
   return Object(_emotion_react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxs"])("div", {
     class: "busbook",
     children: [Object(_emotion_react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("header", {
       children: Object(_emotion_react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("p", {
         children: "Bus Book"
       })
-    }), Object(_emotion_react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("p", {
-      children: "Bus 1"
-    }), Object(_emotion_react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("p", {
-      children: "Bus 2"
-    }), Object(_emotion_react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("p", {
-      children: "Bus 3"
-    }), Object(_emotion_react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxs"])("div", {
-      class: "row",
-      children: [Object(_emotion_react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxs"])("div", {
-        class: "column",
+    }), Object(_emotion_react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxs"])(_material_ui_core_Accordion__WEBPACK_IMPORTED_MODULE_5___default.a, {
+      children: [Object(_emotion_react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])(_material_ui_core_AccordionSummary__WEBPACK_IMPORTED_MODULE_6___default.a, {
+        expandIcon: Object(_emotion_react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])(_material_ui_icons_ExpandMore__WEBPACK_IMPORTED_MODULE_9___default.a, {}),
+        "aria-controls": "panel1a-content",
+        id: "panel1a-header",
         style: {
-          marginLeft: "15px"
+          backgroundColor: '#272838'
         },
-        children: [Object(_emotion_react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("span", {
-          class: "dot",
-          style: {
-            backgroundColor: "red"
-          }
-        }), Object(_emotion_react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("p", {
-          children: "Red"
-        })]
-      }), Object(_emotion_react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxs"])("div", {
-        class: "column",
-        children: [Object(_emotion_react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("span", {
-          class: "dot",
-          style: {
-            backgroundColor: "yellow"
-          }
-        }), Object(_emotion_react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("p", {
-          children: "Yellow"
-        })]
-      }), Object(_emotion_react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxs"])("div", {
-        class: "column",
-        children: [Object(_emotion_react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("span", {
-          class: "dot",
-          style: {
-            backgroundColor: "blue"
-          }
-        }), Object(_emotion_react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("p", {
-          children: "Blue"
-        })]
+        children: Object(_emotion_react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])(_material_ui_core_Typography__WEBPACK_IMPORTED_MODULE_8___default.a, {
+          className: classes.heading,
+          children: "Bus 1"
+        })
+      }), Object(_emotion_react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])(_material_ui_core_AccordionDetails__WEBPACK_IMPORTED_MODULE_7___default.a, {
+        children: Object(_emotion_react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxs"])(_material_ui_core_Typography__WEBPACK_IMPORTED_MODULE_8___default.a, {
+          children: [Object(_emotion_react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxs"])("div", {
+            class: "row",
+            children: [Object(_emotion_react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxs"])("div", {
+              class: "column",
+              style: {
+                marginLeft: "5px"
+              },
+              children: [Object(_emotion_react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("span", {
+                class: "dot",
+                style: {
+                  backgroundColor: "green",
+                  marginLeft: "15px"
+                }
+              }), Object(_emotion_react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("p", {
+                children: "Green"
+              })]
+            }), Object(_emotion_react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxs"])("div", {
+              class: "column",
+              children: [Object(_emotion_react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("span", {
+                class: "dot",
+                style: {
+                  backgroundColor: "orange",
+                  marginLeft: "20px"
+                }
+              }), Object(_emotion_react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("p", {
+                children: "Orange"
+              })]
+            }), Object(_emotion_react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxs"])("div", {
+              class: "column",
+              children: [Object(_emotion_react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("span", {
+                class: "dot",
+                style: {
+                  backgroundColor: "purple",
+                  marginLeft: "15px"
+                }
+              }), Object(_emotion_react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("p", {
+                children: "Purple"
+              })]
+            })]
+          }), Object(_emotion_react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("p", {
+            style: {
+              fontWeight: "bold"
+            },
+            children: "Priority Information"
+          }), Object(_emotion_react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxs"])("div", {
+            class: "white",
+            children: [Object(_emotion_react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxs"])("div", {
+              class: "column2",
+              children: [Object(_emotion_react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("p", {
+                children: "Driver"
+              }), Object(_emotion_react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("p", {
+                children: "Destination"
+              }), Object(_emotion_react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("p", {
+                children: "Arrival"
+              }), Object(_emotion_react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("p", {
+                children: "Departure"
+              }), Object(_emotion_react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("p", {
+                children: "Chairs"
+              }), Object(_emotion_react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("p", {
+                children: "Open Seats"
+              })]
+            }), Object(_emotion_react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxs"])("div", {
+              class: "column2",
+              children: [Object(_emotion_react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("p", {
+                children: "John Doe"
+              }), Object(_emotion_react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("p", {
+                children: "Lincoln Park"
+              }), Object(_emotion_react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("p", {
+                children: "4:30PM"
+              }), Object(_emotion_react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("p", {
+                children: "4:45PM"
+              }), Object(_emotion_react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("p", {
+                children: "5"
+              }), Object(_emotion_react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("p", {
+                children: "0"
+              })]
+            })]
+          }), Object(_emotion_react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("p", {
+            style: {
+              fontWeight: "bold"
+            },
+            children: "Team Members"
+          }), Object(_emotion_react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxs"])("div", {
+            class: "white",
+            children: [Object(_emotion_react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxs"])("div", {
+              class: "column2",
+              children: [Object(_emotion_react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("p", {
+                style: {
+                  marginBottom: "0px"
+                },
+                children: "Name"
+              }), Object(_emotion_react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("p", {
+                children: "Role"
+              }), Object(_emotion_react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("p", {
+                style: {
+                  marginBottom: "0px"
+                },
+                children: "Name"
+              }), Object(_emotion_react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("p", {
+                children: "Role"
+              }), Object(_emotion_react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("p", {
+                style: {
+                  marginBottom: "0px"
+                },
+                children: "Name"
+              }), Object(_emotion_react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("p", {
+                children: "Role"
+              })]
+            }), Object(_emotion_react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxs"])("div", {
+              class: "column2",
+              children: [Object(_emotion_react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("p", {
+                style: {
+                  marginBottom: "0px"
+                },
+                children: "John Doe"
+              }), Object(_emotion_react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("p", {
+                children: "Team Role"
+              }), Object(_emotion_react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("p", {
+                style: {
+                  marginBottom: "0px"
+                },
+                children: "Jane Doe"
+              }), Object(_emotion_react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("p", {
+                children: "Team Role"
+              }), Object(_emotion_react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("p", {
+                style: {
+                  marginBottom: "0px"
+                },
+                children: "John Doe"
+              }), Object(_emotion_react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("p", {
+                children: "Team Role"
+              })]
+            })]
+          })]
+        })
       })]
-    }), Object(_emotion_react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("p", {
-      children: "Priority Information"
-    }), Object(_emotion_react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxs"])("div", {
-      class: "white",
-      children: [Object(_emotion_react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxs"])("div", {
-        class: "column",
-        children: [Object(_emotion_react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("p", {
-          children: "Driver"
-        }), Object(_emotion_react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("p", {
-          children: "Destination"
-        }), Object(_emotion_react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("p", {
-          children: "Arrival"
-        }), Object(_emotion_react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("p", {
-          children: "Departure"
-        }), Object(_emotion_react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("p", {
-          children: "Chairs"
-        }), Object(_emotion_react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("p", {
-          children: "Open Seats"
-        })]
-      }), Object(_emotion_react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxs"])("div", {
-        class: "column",
-        children: [Object(_emotion_react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("p", {
-          children: "John Doe"
-        }), Object(_emotion_react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("p", {
-          children: "Lincoln Park"
-        }), Object(_emotion_react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("p", {
-          children: "4:30PM"
-        }), Object(_emotion_react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("p", {
-          children: "4:45PM"
-        }), Object(_emotion_react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("p", {
-          children: "5"
-        }), Object(_emotion_react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("p", {
-          children: "0"
-        })]
+    }), Object(_emotion_react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxs"])(_material_ui_core_Accordion__WEBPACK_IMPORTED_MODULE_5___default.a, {
+      children: [Object(_emotion_react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])(_material_ui_core_AccordionSummary__WEBPACK_IMPORTED_MODULE_6___default.a, {
+        expandIcon: Object(_emotion_react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])(_material_ui_icons_ExpandMore__WEBPACK_IMPORTED_MODULE_9___default.a, {}),
+        "aria-controls": "panel1a-content",
+        id: "panel1a-header",
+        style: {
+          backgroundColor: '#272838'
+        },
+        children: Object(_emotion_react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])(_material_ui_core_Typography__WEBPACK_IMPORTED_MODULE_8___default.a, {
+          className: classes.heading,
+          children: "Bus 2"
+        })
+      }), Object(_emotion_react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])(_material_ui_core_AccordionDetails__WEBPACK_IMPORTED_MODULE_7___default.a, {
+        children: Object(_emotion_react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxs"])(_material_ui_core_Typography__WEBPACK_IMPORTED_MODULE_8___default.a, {
+          children: [Object(_emotion_react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxs"])("div", {
+            class: "row",
+            children: [Object(_emotion_react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxs"])("div", {
+              class: "column",
+              style: {
+                marginLeft: "5px"
+              },
+              children: [Object(_emotion_react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("span", {
+                class: "dot",
+                style: {
+                  backgroundColor: "gold",
+                  marginLeft: "10px"
+                }
+              }), Object(_emotion_react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("p", {
+                children: "Gold"
+              })]
+            }), Object(_emotion_react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxs"])("div", {
+              class: "column",
+              children: [Object(_emotion_react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("span", {
+                class: "dot",
+                style: {
+                  backgroundColor: "silver",
+                  marginLeft: "12px"
+                }
+              }), Object(_emotion_react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("p", {
+                children: "Silver"
+              })]
+            }), Object(_emotion_react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxs"])("div", {
+              class: "column",
+              children: [Object(_emotion_react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("span", {
+                class: "dot",
+                style: {
+                  backgroundColor: "teal",
+                  marginLeft: "8px"
+                }
+              }), Object(_emotion_react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("p", {
+                children: "Teal"
+              })]
+            })]
+          }), Object(_emotion_react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("p", {
+            style: {
+              fontWeight: "bold"
+            },
+            children: "Priority Information"
+          }), Object(_emotion_react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxs"])("div", {
+            class: "white",
+            children: [Object(_emotion_react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxs"])("div", {
+              class: "column2",
+              children: [Object(_emotion_react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("p", {
+                children: "Driver"
+              }), Object(_emotion_react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("p", {
+                children: "Destination"
+              }), Object(_emotion_react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("p", {
+                children: "Arrival"
+              }), Object(_emotion_react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("p", {
+                children: "Departure"
+              }), Object(_emotion_react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("p", {
+                children: "Chairs"
+              }), Object(_emotion_react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("p", {
+                children: "Open Seats"
+              })]
+            }), Object(_emotion_react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxs"])("div", {
+              class: "column2",
+              children: [Object(_emotion_react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("p", {
+                children: "John Doe"
+              }), Object(_emotion_react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("p", {
+                children: "Lincoln Park"
+              }), Object(_emotion_react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("p", {
+                children: "4:30PM"
+              }), Object(_emotion_react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("p", {
+                children: "4:45PM"
+              }), Object(_emotion_react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("p", {
+                children: "5"
+              }), Object(_emotion_react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("p", {
+                children: "0"
+              })]
+            })]
+          }), Object(_emotion_react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("p", {
+            style: {
+              fontWeight: "bold"
+            },
+            children: "Team Members"
+          }), Object(_emotion_react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxs"])("div", {
+            class: "white",
+            children: [Object(_emotion_react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxs"])("div", {
+              class: "column2",
+              children: [Object(_emotion_react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("p", {
+                style: {
+                  marginBottom: "0px"
+                },
+                children: "Name"
+              }), Object(_emotion_react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("p", {
+                children: "Role"
+              }), Object(_emotion_react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("p", {
+                style: {
+                  marginBottom: "0px"
+                },
+                children: "Name"
+              }), Object(_emotion_react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("p", {
+                children: "Role"
+              }), Object(_emotion_react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("p", {
+                style: {
+                  marginBottom: "0px"
+                },
+                children: "Name"
+              }), Object(_emotion_react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("p", {
+                children: "Role"
+              })]
+            }), Object(_emotion_react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxs"])("div", {
+              class: "column2",
+              children: [Object(_emotion_react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("p", {
+                style: {
+                  marginBottom: "0px"
+                },
+                children: "John Doe"
+              }), Object(_emotion_react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("p", {
+                children: "Team Role"
+              }), Object(_emotion_react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("p", {
+                style: {
+                  marginBottom: "0px"
+                },
+                children: "Jane Doe"
+              }), Object(_emotion_react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("p", {
+                children: "Team Role"
+              }), Object(_emotion_react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("p", {
+                style: {
+                  marginBottom: "0px"
+                },
+                children: "John Doe"
+              }), Object(_emotion_react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("p", {
+                children: "Team Role"
+              })]
+            })]
+          })]
+        })
       })]
-    }), Object(_emotion_react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("p", {
-      children: "Team Members"
-    }), Object(_emotion_react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxs"])("div", {
-      class: "white",
-      children: [Object(_emotion_react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxs"])("div", {
-        class: "column",
-        children: [Object(_emotion_react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("p", {
-          style: {
-            marginBottom: "0px"
-          },
-          children: "Name"
-        }), Object(_emotion_react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("p", {
-          children: "Role"
-        }), Object(_emotion_react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("p", {
-          style: {
-            marginBottom: "0px"
-          },
-          children: "Name"
-        }), Object(_emotion_react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("p", {
-          children: "Role"
-        }), Object(_emotion_react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("p", {
-          style: {
-            marginBottom: "0px"
-          },
-          children: "Name"
-        }), Object(_emotion_react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("p", {
-          children: "Role"
-        })]
-      }), Object(_emotion_react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxs"])("div", {
-        class: "column",
-        children: [Object(_emotion_react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("p", {
-          style: {
-            marginBottom: "0px"
-          },
-          children: "John Doe"
-        }), Object(_emotion_react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("p", {
-          children: "Team Role"
-        }), Object(_emotion_react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("p", {
-          style: {
-            marginBottom: "0px"
-          },
-          children: "Jane Doe"
-        }), Object(_emotion_react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("p", {
-          children: "Team Role"
-        }), Object(_emotion_react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("p", {
-          style: {
-            marginBottom: "0px"
-          },
-          children: "John Doe"
-        }), Object(_emotion_react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("p", {
-          children: "Team Role"
-        })]
+    }), Object(_emotion_react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxs"])(_material_ui_core_Accordion__WEBPACK_IMPORTED_MODULE_5___default.a, {
+      children: [Object(_emotion_react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])(_material_ui_core_AccordionSummary__WEBPACK_IMPORTED_MODULE_6___default.a, {
+        expandIcon: Object(_emotion_react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])(_material_ui_icons_ExpandMore__WEBPACK_IMPORTED_MODULE_9___default.a, {}),
+        "aria-controls": "panel1a-content",
+        id: "panel1a-header",
+        style: {
+          backgroundColor: '#272838'
+        },
+        children: Object(_emotion_react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])(_material_ui_core_Typography__WEBPACK_IMPORTED_MODULE_8___default.a, {
+          className: classes.heading,
+          children: "Bus 3"
+        })
+      }), Object(_emotion_react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])(_material_ui_core_AccordionDetails__WEBPACK_IMPORTED_MODULE_7___default.a, {
+        children: Object(_emotion_react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxs"])(_material_ui_core_Typography__WEBPACK_IMPORTED_MODULE_8___default.a, {
+          children: [Object(_emotion_react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxs"])("div", {
+            class: "row",
+            children: [Object(_emotion_react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxs"])("div", {
+              class: "column",
+              style: {
+                marginLeft: "5px"
+              },
+              children: [Object(_emotion_react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("span", {
+                class: "dot",
+                style: {
+                  backgroundColor: "red",
+                  marginLeft: "7px"
+                }
+              }), Object(_emotion_react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("p", {
+                children: "Red"
+              })]
+            }), Object(_emotion_react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxs"])("div", {
+              class: "column",
+              children: [Object(_emotion_react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("span", {
+                class: "dot",
+                style: {
+                  backgroundColor: "yellow",
+                  marginLeft: "16px"
+                }
+              }), Object(_emotion_react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("p", {
+                children: "Yellow"
+              })]
+            }), Object(_emotion_react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxs"])("div", {
+              class: "column",
+              children: [Object(_emotion_react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("span", {
+                class: "dot",
+                style: {
+                  backgroundColor: "blue",
+                  marginLeft: "8px"
+                }
+              }), Object(_emotion_react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("p", {
+                children: "Blue"
+              })]
+            })]
+          }), Object(_emotion_react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("p", {
+            style: {
+              fontWeight: "bold"
+            },
+            children: "Priority Information"
+          }), Object(_emotion_react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxs"])("div", {
+            class: "white",
+            children: [Object(_emotion_react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxs"])("div", {
+              class: "column2",
+              children: [Object(_emotion_react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("p", {
+                children: "Driver"
+              }), Object(_emotion_react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("p", {
+                children: "Destination"
+              }), Object(_emotion_react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("p", {
+                children: "Arrival"
+              }), Object(_emotion_react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("p", {
+                children: "Departure"
+              }), Object(_emotion_react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("p", {
+                children: "Chairs"
+              }), Object(_emotion_react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("p", {
+                children: "Open Seats"
+              })]
+            }), Object(_emotion_react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxs"])("div", {
+              class: "column2",
+              children: [Object(_emotion_react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("p", {
+                children: "John Doe"
+              }), Object(_emotion_react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("p", {
+                children: "Lincoln Park"
+              }), Object(_emotion_react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("p", {
+                children: "4:30PM"
+              }), Object(_emotion_react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("p", {
+                children: "4:45PM"
+              }), Object(_emotion_react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("p", {
+                children: "5"
+              }), Object(_emotion_react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("p", {
+                children: "0"
+              })]
+            })]
+          }), Object(_emotion_react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("p", {
+            style: {
+              fontWeight: "bold"
+            },
+            children: "Team Members"
+          }), Object(_emotion_react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxs"])("div", {
+            class: "white",
+            children: [Object(_emotion_react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxs"])("div", {
+              class: "column2",
+              children: [Object(_emotion_react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("p", {
+                style: {
+                  marginBottom: "0px"
+                },
+                children: "Name"
+              }), Object(_emotion_react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("p", {
+                children: "Role"
+              }), Object(_emotion_react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("p", {
+                style: {
+                  marginBottom: "0px"
+                },
+                children: "Name"
+              }), Object(_emotion_react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("p", {
+                children: "Role"
+              }), Object(_emotion_react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("p", {
+                style: {
+                  marginBottom: "0px"
+                },
+                children: "Name"
+              }), Object(_emotion_react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("p", {
+                children: "Role"
+              })]
+            }), Object(_emotion_react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxs"])("div", {
+              class: "column2",
+              children: [Object(_emotion_react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("p", {
+                style: {
+                  marginBottom: "0px"
+                },
+                children: "John Doe"
+              }), Object(_emotion_react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("p", {
+                children: "Team Role"
+              }), Object(_emotion_react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("p", {
+                style: {
+                  marginBottom: "0px"
+                },
+                children: "Jane Doe"
+              }), Object(_emotion_react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("p", {
+                children: "Team Role"
+              }), Object(_emotion_react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("p", {
+                style: {
+                  marginBottom: "0px"
+                },
+                children: "John Doe"
+              }), Object(_emotion_react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("p", {
+                children: "Team Role"
+              })]
+            })]
+          })]
+        })
       })]
     })]
   });
@@ -418,7 +1008,6 @@ function Login() {
     }), Object(_emotion_react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("h3", {
       children: "Rochester"
     }), Object(_emotion_react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxs"])("form", {
-      action: "post",
       children: [Object(_emotion_react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("input", {
         type: "text",
         placeholder: "Username",
@@ -435,12 +1024,11 @@ function Login() {
         id: "rememberme"
       }), Object(_emotion_react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("label", {
         children: "Rememer Me"
-      }), Object(_emotion_react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("br", {}), Object(_emotion_react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("br", {}), Object(_emotion_react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])(react_router_dom__WEBPACK_IMPORTED_MODULE_2__["Link"], {
-        to: "/BusBook",
-        children: Object(_emotion_react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])(_material_ui_core__WEBPACK_IMPORTED_MODULE_3__["Button"], {
-          color: "primary",
-          children: "Login"
-        })
+      }), Object(_emotion_react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("br", {}), Object(_emotion_react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("br", {}), Object(_emotion_react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])(_material_ui_core__WEBPACK_IMPORTED_MODULE_3__["Button"], {
+        variant: "contained",
+        color: "primary",
+        href: "BusBook",
+        children: "Login"
       })]
     })]
   });
@@ -468,6 +1056,9 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__("oncg");
 /* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react_router_dom__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _material_ui_core__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__("KKbo");
+/* harmony import */ var _material_ui_core__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_material_ui_core__WEBPACK_IMPORTED_MODULE_3__);
+
 
 
 
@@ -488,9 +1079,10 @@ const LandingPage = () => {
       children: "Rochester"
     }), Object(_emotion_react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("br", {}), Object(_emotion_react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("h2", {
       children: "Mission 66"
-    }), Object(_emotion_react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("br", {}), Object(_emotion_react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])(react_router_dom__WEBPACK_IMPORTED_MODULE_2__["Link"], {
-      to: "/Login",
-      class: "btn btn-primary",
+    }), Object(_emotion_react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("br", {}), Object(_emotion_react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])(_material_ui_core__WEBPACK_IMPORTED_MODULE_3__["Button"], {
+      variant: "contained",
+      color: "primary",
+      href: "Login",
       children: "Go"
     })]
   });
