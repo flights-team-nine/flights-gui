@@ -42,7 +42,8 @@ p {
 
 .busbook,
 .busview,
-.teamview {
+.teamview,
+.documents {
   max-width: 500px;
   margin: auto;
 }
