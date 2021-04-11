@@ -43,7 +43,8 @@ p {
 .busbook,
 .busview,
 .teamview,
-.documents {
+.documents,
+.personinfo {
   max-width: 500px;
   margin: auto;
 }
@@ -148,5 +149,17 @@ header {
 }
 
 .MuiSvgIcon-root {
+  color: white;
+}
+
+.columnb a {
+  color: black;
+}
+
+.columnb_Grey a {
+  color: black;
+}
+
+a {
   color: white;
 }

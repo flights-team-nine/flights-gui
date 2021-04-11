@@ -9,6 +9,7 @@ import BusView from "./BusView.js";
 import TeamView from "./TeamView.js";
 import MissingPage from "./MissingPage.js";
 import Documents from "./Documents.js"
+import PersonInfo from "./PersonInfo.js"
 
 class App extends Component {
   /*const history = useHistory();
@@ -27,6 +28,7 @@ class App extends Component {
           <Route exact path="/teamview" component={TeamView} />
           <Route exact path="/missingpage" component={MissingPage} />
           <Route exact path="/documents" component={Documents} />
+          <Route exact path="/personinfo" component={PersonInfo} />
         </Switch>
       </Router>
     );
