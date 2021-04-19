@@ -18,7 +18,7 @@ function Login() {
 				<br />
 				<input type="password" placeholder="Password" name="password" required />
 				<br />
-				<input type="checkbox" name="rememberme" id="rememberme"/><label>Rememer Me</label>
+				<input type="checkbox" name="rememberme" id="rememberme"/><label>Remember Me</label>
 				<br />
 				<br />
 				<Button variant="contained" color="primary" href="BusBook">Login</Button>
