@@ -1,9 +1,14 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import LandingPage from './App';
-import Login from './Login';
-import 'bootstrap/dist/css/bootstrap.css';
-import './index.css';
+const { default: LandingPage } = require("./LandingPage");
+const { default: Navigation } = require("../components/navigation");
 
-ReactDOM.render(<LandingPage />, document.getElementById('root'));
+
+
+function Index() {
+    return <div>
+        <Navigation />
+        <LandingPage />
+    </div>
+  }
+  
+  export default Index
 //ReactDOM.render(<Login />, document.getElementById('root'));
