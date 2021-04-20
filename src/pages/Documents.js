@@ -23,7 +23,7 @@ class Documents extends React.Component {
 			<div class="documents">
 				<header>
 					<p><Sidebar
-                    sidebar={<div><h4 style={{padding: '0 100px 0 0'}}>Navigation</h4><span style={{fontWeight: 'normal'}}><a href="BusBook.js">Bus Book</a><br /><a href="TeamView.js">Team View</a><br /><a href="BusView.js">Veteran View</a><br /><a href="Documents.js">Documents</a></span></div>}
+                    sidebar={<div><h4 style={{padding: '0 100px 0 0'}}>Navigation</h4><span style={{fontWeight: 'normal'}}><a href="/BusBook">Bus Book</a><br /><a href="/TeamView">Team View</a><br /><a href="/BusView">Veteran View</a><br /><a href="/Documents">Documents</a></span></div>}
                       open={this.state.sidebarOpen}
                       onSetOpen={this.onSetSidebarOpen}
                       styles={{ sidebar: { background: "black", color: "white" } }}
