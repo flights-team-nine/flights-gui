@@ -1,0 +1,12 @@
+{
+  "/App": "pages/App.js",
+  "/BusBook": "pages/BusBook.js",
+  "/BusView": "pages/BusView.js",
+  "/LandingPage": "pages/LandingPage.js",
+  "/Login": "pages/Login.js",
+  "/MissingPage": "pages/MissingPage.js",
+  "/_app": "pages/_app.js",
+  "/": "pages/index.js",
+  "/_error": "pages/_error.js",
+  "/_document": "pages/_document.js"
+}
