@@ -4,6 +4,18 @@ import { Button } from '@material-ui/core';
 import Sidebar from "react-sidebar";
 import MenuIcon from '@material-ui/icons/Menu';
 
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+
+import LandingPage from "./LandingPage.js";
+import Login from "./Login.js";
+import BusBook from "./BusBook.js";
+import BusView from "./BusView.js";
+import TeamView from "./TeamView.js";
+import MissingPage from "./MissingPage.js";
+import Documents from "./Documents.js";
+import PersonInfo from "./PersonInfo.js";
+
+
 class PersonInfo extends React.Component {
 	constructor(props) {
         super(props);
@@ -19,6 +31,18 @@ class PersonInfo extends React.Component {
 
 	render() {
 		return (
+     <Router>
+        <Switch>
+          <Route exact path="/" component={LandingPage} />
+          <Route exact path="/login" component={Login} />
+          <Route exact path="/busbook" component={BusBook} />
+          <Route exact path="/busview" component={BusView} />
+          <Route exact path="/teamview" component={TeamView} />
+          <Route exact path="/missingpage" component={MissingPage} />
+          <Route exact path="/documents" component={Documents} />
+          <Route exact path="/personinfo" component={PersonInfo} />
+        </Switch>
+      </Router>
 			<div class="personinfo">
 				<header>
 					<p><Sidebar

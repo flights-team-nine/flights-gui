@@ -10,6 +10,18 @@ import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
 import Sidebar from "react-sidebar";
 import MenuIcon from '@material-ui/icons/Menu';
 
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+
+import LandingPage from "./LandingPage.js";
+import Login from "./Login.js";
+import BusBook from "./BusBook.js";
+import BusView from "./BusView.js";
+import TeamView from "./TeamView.js";
+import MissingPage from "./MissingPage.js";
+import Documents from "./Documents.js";
+import PersonInfo from "./PersonInfo.js";
+
+
 
 const useStyles = makeStyles((theme) => ({
   heading: {
@@ -36,7 +48,8 @@ class BusBook extends React.Component {
 
 	render() {
 		return (
-		<Router>
+
+	<Router>
         <Switch>
           <Route exact path="/" component={LandingPage} />
           <Route exact path="/login" component={Login} />

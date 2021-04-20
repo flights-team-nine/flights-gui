@@ -18,8 +18,8 @@ import BusBook from "./BusBook.js";
 import BusView from "./BusView.js";
 import TeamView from "./TeamView.js";
 import MissingPage from "./MissingPage.js";
-import Documents from "./Documents.js"
-import PersonInfo from "./PersonInfo.js"
+import Documents from "./Documents.js";
+import PersonInfo from "./PersonInfo.js";
 
 const useStyles = makeStyles((theme) => ({
   heading: {
@@ -47,7 +47,6 @@ class TeamView extends React.Component {
 
   render() {
     return (
-
       <Router>
         <Switch>
           <Route exact path="/" component={LandingPage} />
