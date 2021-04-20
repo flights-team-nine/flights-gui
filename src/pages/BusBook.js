@@ -9,7 +9,6 @@ import Typography from '@material-ui/core/Typography';
 import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
 import Sidebar from "react-sidebar";
 import MenuIcon from '@material-ui/icons/Menu';
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 
 
 const useStyles = makeStyles((theme) => ({
@@ -37,12 +36,24 @@ class BusBook extends React.Component {
 
 	render() {
 		return (
+		<Router>
+        <Switch>
+          <Route exact path="/" component={LandingPage} />
+          <Route exact path="/login" component={Login} />
+          <Route exact path="/busbook" component={BusBook} />
+          <Route exact path="/busview" component={BusView} />
+          <Route exact path="/teamview" component={TeamView} />
+          <Route exact path="/missingpage" component={MissingPage} />
+          <Route exact path="/documents" component={Documents} />
+          <Route exact path="/personinfo" component={PersonInfo} />
+        </Switch>
+      </Router>
 		//function Accordians() {
 			//const classes = useStyles();
 			<div class="busbook">
 				<header>
 					<p><Sidebar
-		                sidebar={<div><h4 style={{padding: '0 100px 0 0'}}>Navigation</h4><span style={{fontWeight: 'normal'}}><Router><Link to="/BusBook">Bus Book</Link></Router><br /><Router><Link to="/TeamView">Team View</Link></Router><br /><Router><Link to="/BusView">Veteran View</Link></Router><br /><Router><Link to="/Documents">Documents</Link></Router></span></div>}
+		                sidebar={<div><h4 style={{padding: '0 100px 0 0'}}>Navigation</h4><span style={{fontWeight: 'normal'}}><Link to="/BusBook">Bus Book</Link><br /><Link to="/TeamView">Team View</Link><br /><Link to="/BusView">Veteran View</Link><br /><Link to="/Documents">Documents</Link></span></div>}
 		                open={this.state.sidebarOpen}
 		                onSetOpen={this.onSetSidebarOpen}
 		                styles={{ sidebar: { background: "black", color: "white" } }}
