@@ -7,6 +7,9 @@ const user = {
 	password: "password"
 };
 
+/**
+ * Login Component
+ */
 function Login() {
 	return (
 		<div class="login">
@@ -18,7 +21,7 @@ function Login() {
 				<br />
 				<input type="password" placeholder="Password" name="password" required />
 				<br />
-				<input type="checkbox" name="rememberme" id="rememberme"/><label>Remember Me</label>
+				<input type="checkbox" name="rememberme" id="rememberme"/><label>Rememer Me</label>
 				<br />
 				<br />
 				<Button variant="contained" color="primary" href="BusBook">Login</Button>

@@ -19,9 +19,16 @@ const useStyles = makeStyles((theme) => ({
   },
 }));
 
+/**
+ * TeamView Componenet is rendered when the TeamView Route is navigated to
+ */
 class TeamView extends React.Component {
   //const classes = useStyles();
 
+
+  /**
+   * Sidebar state preservation and functionality
+   */
   constructor(props) {
         super(props);
         this.state = {
@@ -34,12 +41,15 @@ class TeamView extends React.Component {
       this.setState((prevState) => ({ sidebarOpen: !prevState.sidebarOpen }));
   }
 
+  /**
+   * Renders the teamView Component
+   */
   render() {
     return (
       <div class="teamview">
         <header>
           <p><Sidebar
-                    sidebar={<div><h4 style={{padding: '0 100px 0 0'}}>Navigation</h4><span style={{fontWeight: 'normal'}}><a href="/BusBook">Bus Book</a><br /><a href="/TeamView">Team View</a><br /><a href="/BusView">Veteran View</a><br /><a href="/Documents">Documents</a></span></div>}
+                      sidebar={<div><h4 style={{padding: '0 100px 0 0'}}>Navigation</h4><span style={{fontWeight: 'normal'}}><Link to="/BusBook">Bus Book</Link><br /><Link to="/TeamView">Team View</Link><br /><Link to="/BusView">Veteran View</Link><br /><Link to="/Documents">Documents</Link></span></div>}
                       open={this.state.sidebarOpen}
                       onSetOpen={this.onSetSidebarOpen}
                       styles={{ sidebar: { background: "black", color: "white" } }}

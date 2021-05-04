@@ -2,6 +2,9 @@ import React from 'react';
 import { Link } from "react-router-dom";
 
 
+/**
+ * Renders the MissingPage Component for use when a page is not found
+ */
 const MissingPage = () => {
 
 	return (

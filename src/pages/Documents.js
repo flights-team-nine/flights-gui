@@ -3,7 +3,6 @@ import { Link } from "react-router-dom";
 import { Button } from '@material-ui/core';
 import Sidebar from "react-sidebar";
 import MenuIcon from '@material-ui/icons/Menu';
-import { BrowserRouter } from "react-router-dom";
 
 class Documents extends React.Component {
 	constructor(props) {
@@ -18,12 +17,15 @@ class Documents extends React.Component {
     	this.setState((prevState) => ({ sidebarOpen: !prevState.sidebarOpen }));
 	}
 
+	/**
+	 * Renders the documents route
+	 */
 	render() {
 		return (
 			<div class="documents">
 				<header>
-					<p><Sidebar
-                    sidebar={<div><h4 style={{padding: '0 100px 0 0'}}>Navigation</h4><span style={{fontWeight: 'normal'}}><a href="/BusBook">Bus Book</a><br /><a href="/TeamView">Team View</a><br /><a href="/BusView">Veteran View</a><br /><a href="/Documents">Documents</a></span></div>}
+					<p><Sidebar /** Contains the styling for the sidebar */
+                      sidebar={<div><h4 style={{padding: '0 100px 0 0'}}>Navigation</h4><span style={{fontWeight: 'normal'}}><Link to="/BusBook">Bus Book</Link><br /><Link to="/TeamView">Team View</Link><br /><Link to="/BusView">Veteran View</Link><br /><Link to="/Documents">Documents</Link></span></div>}
                       open={this.state.sidebarOpen}
                       onSetOpen={this.onSetSidebarOpen}
                       styles={{ sidebar: { background: "black", color: "white" } }}

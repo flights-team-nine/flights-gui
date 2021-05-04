@@ -9,6 +9,10 @@ const LandingPage = () => {
 		let path = `Login`;
 	    history.push(path);
 	}*/
+
+	/**
+	 * This page is rendered from the index.js file when the project is started
+	 */
 	return (
 		<div class="landingpage">
 			<h1 class="">HF</h1>

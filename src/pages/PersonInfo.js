@@ -4,7 +4,13 @@ import { Button } from '@material-ui/core';
 import Sidebar from "react-sidebar";
 import MenuIcon from '@material-ui/icons/Menu';
 
+/**
+ * Info on a single veteran in the form of a PersonInfo Component, rendered in the BusBook and BusView Components
+ */
 class PersonInfo extends React.Component {
+  /**
+   * Sidebar state preservation 
+   */
 	constructor(props) {
         super(props);
         this.state = {
@@ -16,13 +22,15 @@ class PersonInfo extends React.Component {
     onSetSidebarOpen() {
     	this.setState((prevState) => ({ sidebarOpen: !prevState.sidebarOpen }));
 	}
-
+  /**
+   * Renders the personInfo by creating HTML
+   */
 	render() {
 		return (
 			<div class="personinfo">
 				<header>
 					<p><Sidebar
-                    sidebar={<div><h4 style={{padding: '0 100px 0 0'}}>Navigation</h4><span style={{fontWeight: 'normal'}}><a href="/BusBook">Bus Book</a><br /><a href="/TeamView">Team View</a><br /><a href="/BusView">Veteran View</a><br /><a href="/Documents">Documents</a></span></div>}
+                sidebar={<div><h4 style={{padding: '0 100px 0 0'}}>Navigation</h4><span style={{fontWeight: 'normal'}}><Link to="/BusBook">Bus Book</Link><br /><Link to="/TeamView">Team View</Link><br /><Link to="/BusView">Veteran View</Link><br /><Link to="/Documents">Documents</Link></span></div>}
                 open={this.state.sidebarOpen}
                 onSetOpen={this.onSetSidebarOpen}
                 styles={{ sidebar: { background: "black", color: "white" } }}
@@ -46,12 +54,12 @@ class PersonInfo extends React.Component {
                 <p>Team</p>
               </div>
               <div class="column2">
-                <p>John Doe</p>
-                <p>(123)-456-7890</p>
-                <p>john.doe@gmail.com</p>
-                <p>Jane Doe</p>
-                <p>Wheelchair</p>
-                <p>Green</p>
+              <p>Name</p>
+                <p>Phone</p>
+                <p>Email</p>
+                <p>Guardian</p>
+                <p>Medical</p>
+                <p>Team</p>
               </div>
         </div>
 			</div>

@@ -19,6 +19,9 @@ const useStyles = makeStyles((theme) => ({
   },
 }));
 
+/**
+ * BusView component class that contains the BusView
+ */
 class BusView extends React.Component {
   //const classes = useStyles();
 
@@ -39,7 +42,7 @@ class BusView extends React.Component {
       <div class="busview">
         <header>
           <p><Sidebar
-                    sidebar={<div><h4 style={{padding: '0 100px 0 0'}}>Navigation</h4><span style={{fontWeight: 'normal'}}><a href="/BusBook">Bus Book</a><br /><a href="/TeamView">Team View</a><br /><a href="/BusView">Veteran View</a><br /><a href="/Documents">Documents</a></span></div>}
+                      sidebar={<div><h4 style={{padding: '0 100px 0 0'}}>Navigation</h4><span style={{fontWeight: 'normal'}}><Link to="/BusBook">Bus Book</Link><br /><Link to="/TeamView">Team View</Link><br /><Link to="/BusView">Veteran View</Link><br /><Link to="/Documents">Documents</Link></span></div>}
                       open={this.state.sidebarOpen}
                       onSetOpen={this.onSetSidebarOpen}
                       styles={{ sidebar: { background: "black", color: "white" } }}
@@ -70,7 +73,7 @@ class BusView extends React.Component {
             <p>Team</p>
           </div>
           <div class="columnb">
-            <p><a href="/PersonInfo">Name</a></p>
+            <p><Link to="/PersonInfo">Name</Link></p>
           </div>
           <div class="columnc">
             <p> EDIT </p>
@@ -81,7 +84,7 @@ class BusView extends React.Component {
             <p>Team</p>
           </div>
           <div class="columnb_Grey">
-            <p><a href="/PersonInfo">Name</a></p>
+            <p><Link to="/PersonInfo">Name</Link></p>
           </div>
           <div class="columnc_darkblue">
             <p> EDIT </p>
@@ -92,7 +95,7 @@ class BusView extends React.Component {
             <p>Team</p>
           </div>
           <div class="columnb">
-            <p><a href="/PersonInfo">Name</a></p>
+            <p><Link to="/PersonInfo">Name</Link></p>
           </div>
           <div class="columnc">
             <p> EDIT </p>
@@ -103,7 +106,7 @@ class BusView extends React.Component {
             <p>Team</p>
           </div>
           <div class="columnb_Grey">
-            <p><a href="/PersonInfo">Name</a></p>
+            <p><Link to="/PersonInfo">Name</Link></p>
           </div>
           <div class="columnc_darkblue">
             <p> EDIT </p>
@@ -114,7 +117,7 @@ class BusView extends React.Component {
             <p>Team</p>
           </div>
           <div class="columnb">
-            <p><a href="/PersonInfo">Name</a></p>
+            <p><Link to="/PersonInfo">Name</Link></p>
           </div>
           <div class="columnc">
             <p> EDIT </p>
@@ -125,7 +128,7 @@ class BusView extends React.Component {
             <p>Team</p>
           </div>
           <div class="columnb_Grey">
-            <p><a href="/PersonInfo">Name</a></p>
+            <p><Link to="/PersonInfo">Name</Link></p>
           </div>
           <div class="columnc_darkblue">
             <p> EDIT </p>
@@ -153,7 +156,7 @@ class BusView extends React.Component {
             <p>Team</p>
           </div>
           <div class="columnb">
-            <p><a href="/PersonInfo">Name</a></p>
+            <p><Link to="/PersonInfo">Name</Link></p>
           </div>
           <div class="columnc">
             <p> EDIT </p>
@@ -164,7 +167,7 @@ class BusView extends React.Component {
             <p>Team</p>
           </div>
           <div class="columnb_Grey">
-            <p><a href="/PersonInfo">Name</a></p>
+            <p><Link to="/PersonInfo">Name</Link></p>
           </div>
           <div class="columnc_darkblue">
             <p> EDIT </p>
@@ -175,7 +178,7 @@ class BusView extends React.Component {
             <p>Team</p>
           </div>
           <div class="columnb">
-            <p><a href="/PersonInfo">Name</a></p>
+            <p><Link to="/PersonInfo">Name</Link></p>
           </div>
           <div class="columnc">
             <p> EDIT </p>
@@ -186,7 +189,7 @@ class BusView extends React.Component {
             <p>Team</p>
           </div>
           <div class="columnb_Grey">
-            <p><a href="/PersonInfo">Name</a></p>
+            <p><Link to="/PersonInfo">Name</Link></p>
           </div>
           <div class="columnc_darkblue">
             <p> EDIT </p>
@@ -197,7 +200,7 @@ class BusView extends React.Component {
             <p>Team</p>
           </div>
           <div class="columnb">
-            <p><a href="/PersonInfo">Name</a></p>
+            <p><Link to="/PersonInfo">Name</Link></p>
           </div>
           <div class="columnc">
             <p> EDIT </p>
@@ -208,7 +211,7 @@ class BusView extends React.Component {
             <p>Team</p>
           </div>
           <div class="columnb_Grey">
-            <p><a href="/PersonInfo">Name</a></p>
+            <p><Link to="/PersonInfo">Name</Link></p>
           </div>
           <div class="columnc_darkblue">
             <p> EDIT </p>
@@ -237,7 +240,7 @@ class BusView extends React.Component {
             <p>Team</p>
           </div>
           <div class="columnb">
-            <p><a href="/PersonInfo">Name</a></p>
+            <p><Link to="/PersonInfo">Name</Link></p>
           </div>
           <div class="columnc">
             <p> EDIT </p>
@@ -248,7 +251,7 @@ class BusView extends React.Component {
             <p>Team</p>
           </div>
           <div class="columnb_Grey">
-            <p><a href="/PersonInfo">Name</a></p>
+            <p><Link to="/PersonInfo">Name</Link></p>
           </div>
           <div class="columnc_darkblue">
             <p> EDIT </p>
@@ -259,7 +262,7 @@ class BusView extends React.Component {
             <p>Team</p>
           </div>
           <div class="columnb">
-            <p><a href="/PersonInfo">Name</a></p>
+            <p><Link to="/PersonInfo">Name</Link></p>
           </div>
           <div class="columnc">
             <p> EDIT </p>
@@ -270,7 +273,7 @@ class BusView extends React.Component {
             <p>Team</p>
           </div>
           <div class="columnb_Grey">
-            <p><a href="/PersonInfo">Name</a></p>
+            <p><Link to="/PersonInfo">Name</Link></p>
           </div>
           <div class="columnc_darkblue">
             <p> EDIT </p>
@@ -281,7 +284,7 @@ class BusView extends React.Component {
             <p>Team</p>
           </div>
           <div class="columnb">
-            <p><a href="/PersonInfo">Name</a></p>
+            <p><Link to="/PersonInfo">Name</Link></p>
           </div>
           <div class="columnc">
             <p> EDIT </p>
@@ -292,7 +295,7 @@ class BusView extends React.Component {
             <p>Team</p>
           </div>
           <div class="columnb_Grey">
-            <p><a href="/PersonInfo">Name</a></p>
+            <p><Link to="/PersonInfo">Name</Link></p>
           </div>
           <div class="columnc_darkblue">
             <p> EDIT </p>

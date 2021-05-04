@@ -8,8 +8,8 @@ import BusBook from "./BusBook.js";
 import BusView from "./BusView.js";
 import TeamView from "./TeamView.js";
 import MissingPage from "./MissingPage.js";
-import Documents from "./Documents.js";
-import PersonInfo from "./PersonInfo.js";
+import Documents from "./Documents.js"
+import PersonInfo from "./PersonInfo.js"
 
 class App extends Component {
   /*const history = useHistory();
@@ -17,6 +17,10 @@ class App extends Component {
     let path = `Login`;
       history.push(path);
   }*/
+
+  /**
+   * Renders the routes for each of the pages in the application
+   */
   render() {
     return (
       <Router>
